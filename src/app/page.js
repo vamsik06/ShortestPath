@@ -203,21 +203,21 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-3">
               <div className={`${isDarkMode ? 'bg-white/10' : 'bg-primary/5'} rounded-lg p-3`}>
                 <Image
-                  src="/home.svg"
-                  alt="Home - Destination"
+                  src="/hotel.svg"
+                  alt="Hotel - Destination"
                   width={40}
                   height={40}
                   className="w-10 h-10 sm:w-12 sm:h-12"
                 />
               </div>
-              <h3 className={`font-medium text-sm ${isDarkMode ? 'text-white' : 'text-foreground'}`}>Home</h3>
+              <h3 className={`font-medium text-sm ${isDarkMode ? 'text-white' : 'text-foreground'}`}>Hotel</h3>
             </div>
           </div>
         </div>
 
         {/* Instructions */}
         <div className="text-center mt-8">
-          <p className={`text-sm ${isDarkMode ? 'text-white/70' : 'text-muted-foreground'}`}>Click on a route to find the shortest path to Home</p>
+          <p className={`text-sm ${isDarkMode ? 'text-white/70' : 'text-muted-foreground'}`}>Click on a route to find the shortest path to Hotel</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,34 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hotel Building Base -->
+  <rect x="6" y="28" width="28" height="6" fill="#1E40AF" stroke="#1E3A8A" stroke-width="1"/>
+  
+  <!-- Hotel Building Main Structure -->
+  <rect x="8" y="8" width="24" height="20" fill="#3B82F6" stroke="#1E3A8A" stroke-width="1"/>
+  
+  <!-- Hotel Sign -->
+  <rect x="10" y="10" width="20" height="4" fill="#F59E0B" stroke="#D97706" stroke-width="1"/>
+  <text x="20" y="13" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="3" font-weight="bold">HOTEL</text>
+  
+  <!-- Five Stars -->
+  <g transform="translate(12, 16)">
+    <polygon points="2,0 2.5,1.5 4,1.5 2.8,2.5 3.3,4 2,3 0.7,4 1.2,2.5 0,1.5 1.5,1.5" fill="#F59E0B"/>
+    <polygon points="6,0 6.5,1.5 8,1.5 6.8,2.5 7.3,4 6,3 4.7,4 5.2,2.5 4,1.5 5.5,1.5" fill="#F59E0B"/>
+    <polygon points="10,0 10.5,1.5 12,1.5 10.8,2.5 11.3,4 10,3 8.7,4 9.2,2.5 8,1.5 9.5,1.5" fill="#F59E0B"/>
+    <polygon points="14,0 14.5,1.5 16,1.5 14.8,2.5 15.3,4 14,3 12.7,4 13.2,2.5 12,1.5 13.5,1.5" fill="#F59E0B"/>
+    <polygon points="18,0 18.5,1.5 20,1.5 18.8,2.5 19.3,4 18,3 16.7,4 17.2,2.5 16,1.5 17.5,1.5" fill="#F59E0B"/>
+  </g>
+  
+  <!-- Windows -->
+  <rect x="10" y="22" width="2" height="2" fill="#E5E7EB"/>
+  <rect x="14" y="22" width="2" height="2" fill="#E5E7EB"/>
+  <rect x="18" y="22" width="2" height="2" fill="#E5E7EB"/>
+  <rect x="22" y="22" width="2" height="2" fill="#E5E7EB"/>
+  
+  <!-- Entrance Doors -->
+  <rect x="16" y="30" width="2" height="4" fill="#92400E" stroke="#78350F" stroke-width="1"/>
+  <rect x="22" y="30" width="2" height="4" fill="#92400E" stroke="#78350F" stroke-width="1"/>
+  
+  <!-- Door handles -->
+  <circle cx="17" cy="32" r="0.3" fill="#F59E0B"/>
+  <circle cx="23" cy="32" r="0.3" fill="#F59E0B"/>
+</svg> 
