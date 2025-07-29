@@ -1,0 +1,49 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grass base -->
+  <ellipse cx="60" cy="110" rx="50" ry="15" fill="#4ade80"/>
+  
+  <!-- House body -->
+  <rect x="35" y="60" width="50" height="40" fill="#ef4444"/>
+  
+  <!-- Roof -->
+  <polygon points="30,60 60,35 90,60" fill="#6b7280"/>
+  
+  <!-- Door -->
+  <rect x="52" y="75" width="16" height="25" fill="#fbbf24"/>
+  <rect x="54" y="77" width="4" height="4" fill="#92400e"/>
+  <rect x="62" y="77" width="4" height="4" fill="#92400e"/>
+  <rect x="54" y="83" width="4" height="4" fill="#92400e"/>
+  <rect x="62" y="83" width="4" height="4" fill="#92400e"/>
+  
+  <!-- Windows -->
+  <rect x="40" y="65" width="12" height="12" fill="#3b82f6"/>
+  <rect x="42" y="67" width="4" height="4" fill="white"/>
+  <rect x="50" y="67" width="4" height="4" fill="white"/>
+  <rect x="42" y="75" width="4" height="4" fill="white"/>
+  <rect x="50" y="75" width="4" height="4" fill="white"/>
+  
+  <rect x="68" y="65" width="12" height="12" fill="#3b82f6"/>
+  <rect x="70" y="67" width="4" height="4" fill="white"/>
+  <rect x="78" y="67" width="4" height="4" fill="white"/>
+  <rect x="70" y="75" width="4" height="4" fill="white"/>
+  <rect x="78" y="75" width="4" height="4" fill="white"/>
+  
+  <!-- Chimney -->
+  <rect x="70" y="40" width="8" height="20" fill="#ef4444"/>
+  <rect x="71" y="38" width="6" height="4" fill="#6b7280"/>
+  
+  <!-- Window box -->
+  <rect x="68" y="95" width="12" height="4" fill="white"/>
+  <rect x="70" y="97" width="2" height="2" fill="#22c55e"/>
+  <rect x="74" y="97" width="2" height="2" fill="#22c55e"/>
+  <rect x="78" y="97" width="2" height="2" fill="#22c55e"/>
+  
+  <!-- Steps -->
+  <rect x="48" y="100" width="24" height="4" fill="#9ca3af"/>
+  <rect x="50" y="104" width="20" height="4" fill="#9ca3af"/>
+  
+  <!-- Bushes -->
+  <circle cx="45" cy="105" r="6" fill="#22c55e"/>
+  <circle cx="75" cy="105" r="8" fill="#22c55e"/>
+  <circle cx="85" cy="105" r="6" fill="#22c55e"/>
+</svg> 
