@@ -148,19 +148,19 @@ export default function Home() {
         
         {/* Two Boxes with Multiple Routes */}
         <div className="flex items-center justify-between">
-          {/* Home Box - Left Corner */}
+          {/* Airport Box - Left Corner */}
           <div className={`${isDarkMode ? 'bg-white/10 border-white/20' : 'bg-card border'} rounded-lg shadow-sm p-4 w-[160px] flex-shrink-0 transition-colors duration-200`}>
-            <div className="flex flex-col items-center space-y-3">
-              <div className={`${isDarkMode ? 'bg-white/10' : 'bg-primary/5'} rounded-lg p-3`}>
-          <Image
-                  src="/home.svg"
-                  alt="Home - Starting Point"
+            <div className="flex flex-col items-center space-y-2">
+              <div className={`${isDarkMode ? 'bg-white/10' : 'bg-secondary/5'} rounded-lg p-3`}>
+                <Image
+                  src="/airport.svg"
+                  alt="Airport - Starting Point"
                   width={40}
                   height={40}
                   className="w-10 h-10 sm:w-12 sm:h-12"
                 />
               </div>
-              <h3 className={`font-medium text-sm ${isDarkMode ? 'text-white' : 'text-foreground'}`}>Home</h3>
+              <h3 className={`font-medium text-sm ${isDarkMode ? 'text-white' : 'text-foreground'}`}>Airport</h3>
             </div>
           </div>
 
@@ -198,26 +198,26 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Office Box - Right Corner */}
+          {/* Home Box - Right Corner */}
           <div className={`${isDarkMode ? 'bg-white/10 border-white/20' : 'bg-card border'} rounded-lg shadow-sm p-4 w-[160px] flex-shrink-0 transition-colors duration-200`}>
-            <div className="flex flex-col items-center space-y-2">
-              <div className={`${isDarkMode ? 'bg-white/10' : 'bg-secondary/5'} rounded-lg p-3`}>
+            <div className="flex flex-col items-center space-y-3">
+              <div className={`${isDarkMode ? 'bg-white/10' : 'bg-primary/5'} rounded-lg p-3`}>
                 <Image
-                  src="/airport.svg"
-                  alt="Airport - Destination"
+                  src="/home.svg"
+                  alt="Home - Destination"
                   width={40}
                   height={40}
                   className="w-10 h-10 sm:w-12 sm:h-12"
                 />
               </div>
-              <h3 className={`font-medium text-sm ${isDarkMode ? 'text-white' : 'text-foreground'}`}>Airport</h3>
+              <h3 className={`font-medium text-sm ${isDarkMode ? 'text-white' : 'text-foreground'}`}>Home</h3>
             </div>
           </div>
         </div>
 
         {/* Instructions */}
         <div className="text-center mt-8">
-          <p className={`text-sm ${isDarkMode ? 'text-white/70' : 'text-muted-foreground'}`}>Click on a route to find the shortest path to Airport</p>
+          <p className={`text-sm ${isDarkMode ? 'text-white/70' : 'text-muted-foreground'}`}>Click on a route to find the shortest path to Home</p>
         </div>
       </div>
     </div>
